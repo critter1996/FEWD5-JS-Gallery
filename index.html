@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <div class="gallery">
+        <a href="img/2-1.jpg" data-caption="Image caption">
+            <img src="img/thumbnails/2-1.jpg" alt="First image">
+        </a>
+        <a href="img/2-2.jpg">
+            <img src="img/thumbnails/2-2.jpg" alt="Second image">
+        </a>
+        ...
+    </div>
+  </body>
+  <script>
+    window.addEventListener('load', function() {
+      baguetteBox.run('.gallery');
+    });
+    </script>
+</html>
