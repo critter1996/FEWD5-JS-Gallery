@@ -2,19 +2,21 @@
    Grid Layout
 ======================================== */
 .gallery {
-    max-width: 1000px;
+    max-width: 900px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    grid-gap: 15px;
+    margin-left: 15%;
+    margin-right: 8%;
   }
 
 input#search {
+    display: flex;
     height: 60px;
     width: 40%;
     padding: 15px;
-    margin-left: 30%;
+    /* margin-left: 30%; */
+    justify-content: center;
     margin-bottom: 30px;
 }
