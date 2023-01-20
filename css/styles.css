@@ -16,7 +16,7 @@ input#search {
     height: 60px;
     width: 40%;
     padding: 15px;
-    /* margin-left: 30%; */
+    margin-left: 30%;
     justify-content: center;
     margin-bottom: 30px;
 }
