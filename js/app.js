@@ -1,15 +1,15 @@
-// const search = new Filter('search', 'data-caption');
-
-
 const search = document.getElementById('search');
 search.addEventListener('keyup', e => {
     let currentValue = e.target.value.toLowerCase();
-    let info = document.querySelectorAll('img.pic');
+    let info = document.querySelectorAll('[data-caption]');
+
     info.forEach(card => {
-        if (card.textContent.toLowerCase().includes(currentValue)) {
-            card.parentNode.parentNode.style.display = 'block';
-        }else {
-            card.parentNode.parentNode.style.display = 'none';
+        let text = card.getAttribute('data-caption');
+        if (text.toLowerCase().includes(currentValue)) {
+            card.parentNode.style.display = 'block';
+            console.log(currentValue);
+        } else {
+            card.parentNode.style.display = 'none';
         }
     });
 });
