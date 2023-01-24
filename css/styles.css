@@ -1,25 +1,29 @@
 /* ===================================== 
-   Grid Layout
-======================================== */
-.gallery {
-    max-width: 900px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 15px;
-    margin-left: 15%;
-    margin-right: 8%;
-  }
-
-/* ===================================== 
    Search Bar
 ======================================== */
+/* line 4, ../../Coding Projects/FEWD5-JS-Gallery/SASS/utilities/_searchbar.scss */
 input#search {
-    display: flex;
-    height: 60px;
-    width: 40%;
-    padding: 15px;
-    margin-left: 30%;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  height: 60px;
+  width: 40%;
+  padding: 15px;
+  margin-left: 30%;
+  justify-content: center;
+  margin-bottom: 30px;
 }
+
+/* ===================================== 
+   Grid Layout
+======================================== */
+/* line 4, ../../Coding Projects/FEWD5-JS-Gallery/SASS/base/_gallery.scss */
+.gallery {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+  margin-left: 15%;
+  margin-right: 8%;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../SASS/styles.scss",
+		"../SASS/utilities/_index.scss",
+		"../SASS/utilities/_searchbar.scss",
+		"../SASS/base/_index.scss",
+		"../SASS/base/_gallery.scss"
+	],
+	"sourcesContent": [
+		"@import \"utilities/index\",\r\n         \"base/index\";",
+		"@import \"searchbar.scss\";",
+		"/* ===================================== \r\n   Search Bar\r\n======================================== */\r\ninput#search {\r\n    display: flex;\r\n    height: 60px;\r\n    width: 40%;\r\n    padding: 15px;\r\n    margin-left: 30%;\r\n    justify-content: center;\r\n    margin-bottom: 30px;\r\n}\r\n",
+		"@import \"gallery.scss\";",
+		"/* ===================================== \r\n   Grid Layout\r\n======================================== */\r\n.gallery {\r\n    max-width: 900px;\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));\r\n    grid-gap: 15px;\r\n    margin-left: 15%;\r\n    margin-right: 8%;\r\n  }\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AEAA;;2CAE2C;;AAC3C,AAAA,KAAK,AAAA,OAAO,CAAC;EACT,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,GAAG;EAChB,eAAe,EAAE,MAAM;EACvB,aAAa,EAAE,IAAI;CACtB;;AEXD;;2CAE2C;;AAC3C,AAAA,QAAQ,CAAC;EACL,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,oCAAoC;EAC3D,kBAAkB,EAAE,oCAAoC;EACxD,QAAQ,EAAE,IAAI;EACd,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,EAAE;CACjB"
+}
