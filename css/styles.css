@@ -11,6 +11,9 @@
     margin-right: 8%;
   }
 
+/* ===================================== 
+   Search Bar
+======================================== */
 input#search {
     display: flex;
     height: 60px;
