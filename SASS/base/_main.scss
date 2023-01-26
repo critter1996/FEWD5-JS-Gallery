@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
+
+input:hover, 
+textarea:hover,
+select:hover {
+  border: solid black;
+}
+
+::placeholder {
+    color: lightslategray;
+    font-size: 14px;
+    font-style: italic;
+    padding: 2px;
+  }

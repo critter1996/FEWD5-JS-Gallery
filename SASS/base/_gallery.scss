@@ -2,12 +2,12 @@
    Grid Layout
 ======================================== */
 .gallery {
-    max-width: 900px;
+    max-width: 1500px;
     display: grid;
+    align-self: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 15px;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-right: 8%;
   }
-

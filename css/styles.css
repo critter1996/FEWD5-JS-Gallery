@@ -1,29 +1,17 @@
 /* ===================================== 
    Search Bar
 ======================================== */
-/* line 4, ../../Coding Projects/FEWD5-JS-Gallery/SASS/utilities/_searchbar.scss */
-input#search {
-  display: flex;
-  height: 60px;
-  width: 40%;
-  padding: 15px;
-  margin-left: 30%;
-  justify-content: center;
-  margin-bottom: 30px;
-}
+input#search { display: flex; height: 60px; width: 40%; padding: 15px; margin-left: 30%; justify-content: center; margin-bottom: 30px; }
 
 /* ===================================== 
    Grid Layout
 ======================================== */
-/* line 4, ../../Coding Projects/FEWD5-JS-Gallery/SASS/base/_gallery.scss */
-.gallery {
-  max-width: 900px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 15px;
-  margin-left: 15%;
-  margin-right: 8%;
-}
+.gallery { max-width: 1500px; display: grid; align-self: center; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 15px; margin-left: 8%; margin-right: 8%; }
 
-/*# sourceMappingURL=styles.css.map */
+* { box-sizing: border-box; font-family: 'Quicksand', sans-serif; }
+
+html { font-size: 18px; }
+
+input:hover, textarea:hover, select:hover { border: solid black; }
+
+::placeholder { color: lightslategray; font-size: 14px; font-style: italic; padding: 2px; }
